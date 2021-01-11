@@ -1,0 +1,19 @@
+{
+  "name": "group-array-elements",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Tatenda Chawanzwa<tatenda@chadigital.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "rootDir": "./src",
+    "testMatch": ["**/?(*.)+(test).js?(x)"],
+    "testPathIgnorePatterns": ["node_modules"],
+    "moduleDirectories": ["node_modules"]
+  }
+}
